@@ -115,22 +115,22 @@
    (((?* ?x) estou (?* ?y)) ;;;;;;;;;;;;;;; ESTADO
     (Como voce esta?))     
    (((?* ?x) (eu estou triste) (?* ?y))
-    (Qual disciplina que te deixa triste?))
+    (O que te deixa triste?))
    (((?* ?x) (eu estou estressado) (?* ?y))
-    (Qual disciplina que te deixa estressado?))
+    (O que te deixa estressado?))
    (((?* ?x) (eu estou zangado) (?* ?y))
-    (Qual disciplina que te deixa zangado?))
+    (O que te deixa zangado?))
    (((?* ?x) (eu estou cansado) (?* ?y))
-    (Qual disciplina que te deixa cansado?))
+    (O que te deixa cansado?))
    (((?* ?x) (eu estou estressada) (?* ?y))
-    (Qual disciplina que te deixa estressada?))
+    (O que te deixa estressada?))
    (((?* ?x) (eu estou zangado) (?* ?y))
-    (Qual disciplina que te deixa zangada?))
+    (O que te deixa zangada?))
    (((?* ?x) (eu estou cansado) (?* ?y))
-    (Qual disciplina que te deixa cansada?))
+    (O que te deixa cansada?))
    
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-   (((?* ?x) disciplina (?* ?y)) ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; BLOCO DISCIPLINA @CAIOFROTA
+   (((?* ?x) disciplina (?* ?y)) ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; BLOCO DISCIPLINA 
      (de qual disciplina voce quer falar?))
    (((?* ?x) arquitetura (?* ?y))
      (Interessante! Voce gosta ou nao gosta dessa disciplina?))
