@@ -108,9 +108,9 @@
 
 (defparameter *eliza-rules* 
  '((((?* ?x) ola (?* ?y)) ;;;;;;;;;;;;;;; SAUDAÇÕES
-    (Como voce vai?Qual sua dificuldade no curso? Relacionamento? Disciplina? Saude Mental? Trabalho? Campus?))
+    (Sobre o que você gostaria de falar? Ansiedade? Depressão? Síndrome de Pânico? Complexo de Inferioridade? Transtorno Bipolar? Transtorno de Burnout?))
    (((?* ?x) oi (?* ?y))
-    (Como voce vai?Qual seu problema no curso? Relacionamento? Disciplina? Saude Mental? Trabalho? Campus?))
+    (Sobre o que você gostaria de falar? Ansiedade? Depressão? Síndrome de Pânico? Complexo de Inferioridade? Transtorno Bipolar? Transtorno de Burnout?))
    
    (((?* ?x) estou (?* ?y)) ;;;;;;;;;;;;;;; ESTADO
     (Como voce esta?))     
