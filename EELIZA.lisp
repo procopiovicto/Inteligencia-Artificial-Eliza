@@ -108,9 +108,9 @@
 
 (defparameter *eliza-rules* 
  '((((?* ?x) ola (?* ?y)) ;;;;;;;;;;;;;;; SAUDAÇÕES
-    (Sobre o que você gostaria de falar? Ansiedade? Depressão? Síndrome de Pânico? Complexo de Inferioridade? Transtorno Bipolar? Transtorno de Burnout?))
+    (Sobre o que você gostaria de falar? Ansiedade? Depressão? Síndrome de Pânico? Complexo de Inferioridade? Transtorno Bipolar? Sindrome de Burnout?))
    (((?* ?x) oi (?* ?y))
-    (Sobre o que você gostaria de falar? Ansiedade? Depressão? Síndrome de Pânico? Complexo de Inferioridade? Transtorno Bipolar? Transtorno de Burnout?))
+    (Sobre o que você gostaria de falar? Ansiedade? Depressão? Síndrome de Pânico? Complexo de Inferioridade? Transtorno Bipolar? Síndrome de Burnout?))
    
    (((?* ?x) estou (?* ?y)) ;;;;;;;;;;;;;;; ESTADO
     (Como voce esta?))     
@@ -132,7 +132,7 @@
   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INÍCIO DO BLOCO DEPRESSÃO 
    
    (((?* ?x) DEPRESSÃO (? ?y)) 
-     (Sobre qual sintoma gostaria de falar? Tristeza contante? Cansaço e Insônia? Perda de interesse por atividades que antes apreciava? Insatisfação com a vida? Perda de peso? Irritabilidade?))
+     (Sobre qual sintoma gostaria de falar? Tristeza constante? Cansaço e Insônia? Perda de interesse por atividades que antes apreciava? Insatisfação com a vida? Perda de peso? Irritabilidade?))
    (((?* ?x) tristeza (?* ?y))
      (Saiba que não é sua culpa e que eu apoio você! faça algo que goste...leia um livro...vá ao cinema...tente nao pensar nisso...esta bem?))
      (((?* ?x) (tristeza constante) (?* ?y))
