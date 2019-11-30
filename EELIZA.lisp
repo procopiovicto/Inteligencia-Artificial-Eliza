@@ -850,7 +850,7 @@
    (((?* ?x) (porque a disciplina eh dificil) (?* ?y))
      (Serio? Qual o nome da disciplina?))     ;;BLOCO DISCIPLINA
    (((?* ?x) (a disciplina eh dificil) (?* ?y))
-     (Serio? Qual o nome da disciplina?))     ;;BLOCO DISCIPLINA
+     (Serio? Qual é a disciplina?))     ;;BLOCO DISCIPLINA
    (((?* ?x) (disciplina eh dificil) (?* ?y))
      (Serio? Qual o nome da disciplina?))     ;;BLOCO DISCIPLINA
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -1122,7 +1122,7 @@
 (((?* ?x) (nao gosto do meu chefe) (?* ?y))
       (poxa cara.Infelizmente voce nao pode fazer nada para mudar isso))
 (((?* ?x) (ganho pouco dinheiro) (?* ?y))
-      (poxa cara.Infelizmente todo mundo passa por esse porblema. Tente trocar de empregou ou ser promovido))
+      (poxa cara. Infelizmente todo mundo passa por esse porblema. Tente trocar de empregou ou ser promovido))
 (((?* ?x) (preciso de dinheiro) (?* ?y))
       (poxa cara.Infelizmente todo mundo passa por esse porblema.))
 
