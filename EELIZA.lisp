@@ -179,35 +179,50 @@
 
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO TRANSTORNO BIPOLAR
 
+   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO SINDROME DE PANICO
 
+   (((?* ?x) SINDROME DE PANICO (? ?y)) 
+   (Sobre qual sintoma gostaria de falar? Dor no peito com sensacao de aperto? Sensacao de falta de ar? Sensacao de fraqueza ou desmaio? Sensacao de terror ou perigo iminente?))
+   (((?* ?x) Dor no peito com sensacao de aperto (?* ?y))
+   (Respirar lenta e profundamente ajuda a reduzir a frequencia cardiaca tudo bem?))
+   (((?* ?x) (Sensacao de falta de ar) (?* ?y))
+   (Sente-e com a coluna ereta ou fique de pe com o corpo reto, feche os olhos e coloque as maos sobre a barriga, inspire contando ate 5 lentamente, estufando a barriga para enche-la de ar, expire tambem contando ate 5 lentamente, liberando o ar da barriga e contraindo os musculos desta região.))
+   (((?* ?x) Sensacao de fraqueza ou desmaio (?* ?y))
+   (Voce ja pensou em fazer yoga eh uma pratica que une alongamentos, controle da respiração e fortalecimento da musculatura. Ok?))
+   (((?* ?x) Sensacao de terror ou perigo iminente (?* ?y))
+   (Imagine um local real que transmita paz e segurança ou crie um ambiente imaginario, pensando em todos os detalhes que ajudam a trazer tranquilidade tudo bem?))
 
-  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; CASO A PESSOA RESPONDA 'ESTA' BEM'
+   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO SINDROME DE PANICO
+
+  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; CASO A PESSOA RESPONDA 'ESTA BEM'
            
-     (((?* ?x)(esta' bem) (?* ?y))
-     (Otimo! Sempre lembre que voce e' importante!))
-     (((?* ?x)(ta bem) (?* ?y))
-     (Otimo! Sempre lembre que voce e' importante!))
      (((?* ?x)(esta bem) (?* ?y))
-     (Otimo! Sempre lembre que voce e' importante!))
+     (Otimo! Sempre lembre que voce e importante!))
+     (((?* ?x)(ta bem) (?* ?y))
+     (Otimo! Sempre lembre que voce e importante!))
+     (((?* ?x)(esta bem) (?* ?y))
+     (Otimo! Sempre lembre que voce e importante!))
      (((?* ?x)(esta) (?* ?y))
-     (Otimo! Sempre lembre que voce e' importante!))
-     (((?* ?x)(esta') (?* ?y))
-     (Otimo! Sempre lembre que voce e' importante!))
+     (Otimo! Sempre lembre que voce e importante!))
+     (((?* ?x)(esta) (?* ?y))
+     (Otimo! Sempre lembre que voce e importante!))
+     (((?* ?x)(ok) (?* ?y))
+     (Otimo! Sempre lembre que voce e importante!))
 
-  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; CASO A PESSOA RESPONDA 'NAO ESTA''
+  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; CASO A PESSOA RESPONDA 'NAO ESTA'
 
     (((?* ?x)(nao esta bem) (?* ?y))
-    (Poxa! Voce pode nao acreditar agora mas voce ira' ficar bem! Sempre lembre que voce e' importante))
+    (Poxa! Voce pode nao acreditar agora mas voce ira ficar bem! Sempre lembre que voce e importante))
     (((?* ?x)(nao esta) (?* ?y))
-    (Poxa! Voce pode nao acreditar agora mas voce ira' ficar bem! Sempre lembre que voce e' importante))
-    (((?* ?x)(nao esta') (?* ?y))
-    (Poxa! Voce pode nao acreditar agora mas voce ira' ficar bem! Sempre lembre que voce e' importante))
+    (Poxa! Voce pode nao acreditar agora mas voce ira ficar bem! Sempre lembre que voce e importante))
+    (((?* ?x)(nao esta) (?* ?y))
+    (Poxa! Voce pode nao acreditar agora mas voce ira ficar bem! Sempre lembre que voce e importante))
     (((?* ?x)(nao esta bem) (?* ?y))
-    (Poxa! Voce pode nao acreditar agora mas voce ira' ficar bem! Sempre lembre que voce e' importante))
+    (Poxa! Voce pode nao acreditar agora mas voce ira ficar bem! Sempre lembre que voce e importante))
     (((?* ?x)(nao) (?* ?y))
-    (Poxa! Voce pode nao acreditar agora mas voce ira' ficar bem! Sempre lembre que voce e' importante))
+    (Poxa! Voce pode nao acreditar agora mas voce ira ficar bem! Sempre lembre que voce e importante))
     (((?* ?x)(nao) (?* ?y))
-    (Poxa! Voce pode nao acreditar agora mas voce ira' ficar bem! Sempre lembre que voce e' importante))
+    (Poxa! Voce pode nao acreditar agora mas voce ira ficar bem! Sempre lembre que voce e importante))
 
    
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
