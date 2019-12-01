@@ -162,7 +162,20 @@
      ((?* ?x) irritabilidade (?* ?y))
      (Saiba que não é sua culpa e que eu apoio você! faça algo que goste...leia um livro...vá ao cinema...tente nao pensar nisso... esta bem?))
      
-     
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INÍCIO DO BLOCO TRANSTORNO BIPOLAR
+   
+    (((?* ?x) TRANSTORNO BIPOLAR(? ?y)) 
+     (Sobre qual sintoma gostaria de falar? Distração? Alterações de humor? Pensamento acelerado? Agitação?))
+     (((?* ?x) Distração (?* ?y))
+     (Faça uma pausa e dê uma volta, mas num lugar com natureza... Isso ajuda a reduzir a ansiedade e a aumentar a capacidade mental, certo?))
+     (((?* ?x) (Alterações de humor) (?* ?y))
+     (Descubra o faz você se sentir melhor e crie sua própria rotina incluindo esta atividade. Por exemplo: música, um passeio, uma conversa animada com amigos… Identifique as atividades que o acalmam e tente sempre ter um espaço na agenda para elas.?))
+     (((?* ?x) Pensamento acelerado(?* ?y))
+     (Que tal pensar nos seus problemas como se eles fossem de outra pessoa, assim fica mais fácil deixar de se incomodar com eles. Apenas respire e mantenha o foco no presente. ^^))
+     (((?* ?x) Agitação(?* ?y))
+     (Pratique exercícios, durma bastante e alimente-se de maneira correta, isso ajuda a diminuir os níveis de estresse, e a relaxar ok?))
+
+
   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; CASO A PESSOA RESPONDA 'ESTÁ BEM'
            
      (((?* ?x)(está bem) (?* ?y))
