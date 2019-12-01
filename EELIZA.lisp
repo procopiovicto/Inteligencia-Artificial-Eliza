@@ -129,83 +129,86 @@
    (((?* ?x) (eu estou cansado) (?* ?y))
     (O que te deixa cansada?))
    
-  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INÍCIO DO BLOCO DEPRESSÃO 
+  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO DEPRESSAO 
    
-   (((?* ?x) DEPRESSÃO (? ?y)) 
-     (Sobre qual sintoma gostaria de falar? Tristeza constante? Cansaço e Insônia? Perda de interesse por atividades que antes apreciava? Insatisfação com a vida? Perda de peso? Irritabilidade?))
+   (((?* ?x) DEPRESSAO (? ?y)) 
+     (Sobre qual sintoma gostaria de falar? Tristeza constante? Cansaco e Insonia? Perda de interesse por atividades que antes apreciava? Insatisfacao com a vida? Perda de peso? Irritabilidade?))
    (((?* ?x) tristeza (?* ?y))
-     (Saiba que não é sua culpa e que eu apoio você! faça algo que goste...leia um livro...vá ao cinema...tente nao pensar nisso...esta bem?))
+     (Saiba que nao e sua culpa e que eu apoio voce! faca algo que goste...leia um livro...va ao cinema...tente nao pensar nisso...esta bem?))
      (((?* ?x) (tristeza constante) (?* ?y))
-     (Saiba que não é sua culpa e que eu apoio você! faça algo que goste...leia um livro...vá ao cinema...tente nao pensar nisso...esta bem?))
-     (((?* ?x) cansaço (?* ?y))
-     ( faça algo que goste...leia um livro...vá ao cinema...tente nao pensar nisso...esta bem?))
-     (((?* ?x) Insônia (?* ?y))
-     (faça algo que goste...leia um livro...vá ao cinema...tente nao pensar nisso...esta bem?))
-     (((?* ?x) (cansaço e insônia) (?* ?y))
-     (Saiba que não é sua culpa e que eu apoio você! faça algo que goste...leia um livro...vá ao cinema...tente nao pensar nisso...esta bem?))
-     (((?* ?x) (cansaço e insonia) (?* ?y))
-     (Saiba que não é sua culpa e que eu apoio você! faça algo que goste...leia um livro...vá ao cinema...tente nao pensar nisso...esta bem?))
+     (Saiba que nao e sua culpa e que eu apoio voce! faca algo que goste...leia um livro...va ao cinema...tente nao pensar nisso...esta bem?))
+     (((?* ?x) cansaco (?* ?y))
+     ( faca algo que goste...leia um livro...va ao cinema...tente nao pensar nisso...esta bem?))
+     (((?* ?x) Insonia (?* ?y))
+     (faca algo que goste...leia um livro...va ao cinema...tente nao pensar nisso...esta bem?))
      (((?* ?x) (cansaco e insonia) (?* ?y))
-     (Saiba que não é sua culpa e que eu apoio você! faça algo que goste...leia um livro...vá ao cinema...tente nao pensar nisso... esta bem?))
+     (Saiba que nao e sua culpa e que eu apoio voce! faca algo que goste...leia um livro...va ao cinema...tente nao pensar nisso...esta bem?))
+     (((?* ?x) (cansaco e insonia) (?* ?y))
+     (Saiba que nao e sua culpa e que eu apoio voce! faca algo que goste...leia um livro...va ao cinema...tente nao pensar nisso...esta bem?))
+     (((?* ?x) (cansaco e insonia) (?* ?y))
+     (Saiba que nao e sua culpa e que eu apoio voce! faca algo que goste...leia um livro...va ao cinema...tente nao pensar nisso...esta bem?))
      (((?* ?x) (perda de interesse por atividades que antes apreciava) (?* ?y))
-     (Saiba que não é sua culpa e que eu apoio você! É normal se sentir assim... esta bem?))
+     (Saiba que nao e sua culpa e que eu apoio voce! E normal se sentir assim... esta bem?))
      (((?* ?x) (perda de interesse por atividades)(?* ?y))
-     (Saiba que não é sua culpa e que eu apoio você! É normal se sentir assim... esta bem?))
+     (Saiba que nao e sua culpa e que eu apoio voce! E normal se sentir assim... esta bem?))
      (((?* ?x) (perda de interesse)(?* ?y))
-     (Saiba que não é sua culpa e que eu apoio você! É normal se sentir assim... esta bem?))
-     (((?* ?x) (insatisfação com a vida) (?* ?y))
-     (Saiba que não é sua culpa e que eu apoio você! faça algo que goste...leia um livro...vá ao cinema...tente nao pensar nisso... esta bem?))
-     ((?* ?x) insatisfação (?* ?y))
-     (Saiba que não é sua culpa e que eu apoio você! faça algo que goste...leia um livro...vá ao cinema...tente nao pensar nisso... esta bem?))
+     (Saiba que nao e sua culpa e que eu apoio voce! E normal se sentir assim... esta bem?))
+     (((?* ?x) (insatisfacao com a vida) (?* ?y))
+     (Saiba que nao e sua culpa e que eu apoio voce! faca algo que goste...leia um livro...va ao cinema...tente nao pensar nisso...esta bem?))
+     ((?* ?x) insatisfacao (?* ?y))
+     (Saiba que nao e sua culpa e que eu apoio voce! faca algo que goste...leia um livro...va ao cinema...tente nao pensar nisso...esta bem?))
      ((?* ?x) (Perda de peso) (?* ?y))
-     (Saiba que não é sua culpa e que eu apoio você! faça algo que goste...leia um livro...vá ao cinema...tente nao pensar nisso... esta bem?))
+     (Saiba que nao e sua culpa e que eu apoio voce! faca algo que goste...leia um livro...va ao cinema...tente nao pensar nisso...esta bem?))
      ((?* ?x) irritabilidade (?* ?y))
-     (Saiba que não é sua culpa e que eu apoio você! faça algo que goste...leia um livro...vá ao cinema...tente nao pensar nisso... esta bem?))
-     
-    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INÍCIO DO BLOCO TRANSTORNO BIPOLAR
+     (Saiba que nao e sua culpa e que eu apoio voce! faca algo que goste...leia um livro...va ao cinema...tente nao pensar nisso...esta bem?))
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO DEPRESSAO
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO TRANSTORNO BIPOLAR
    
     (((?* ?x) TRANSTORNO BIPOLAR(? ?y)) 
-     (Sobre qual sintoma gostaria de falar? Distração? Alterações de humor? Pensamento acelerado? Agitação?))
-     (((?* ?x) Distração (?* ?y))
-     (Faça uma pausa e dê uma volta, mas num lugar com natureza... Isso ajuda a reduzir a ansiedade e a aumentar a capacidade mental, certo?))
-     (((?* ?x) (Alterações de humor) (?* ?y))
-     (Descubra o faz você se sentir melhor e crie sua própria rotina incluindo esta atividade. Por exemplo: música, um passeio, uma conversa animada com amigos… Identifique as atividades que o acalmam e tente sempre ter um espaço na agenda para elas.?))
+     (Sobre qual sintoma gostaria de falar? Distracao? Alteracooes de humor? Pensamento acelerado? Agitacao?))
+     (((?* ?x) Distracao (?* ?y))
+     (Faca uma pausa e de uma volta, mas num lugar com natureza... Isso ajuda a reduzir a ansiedade e a aumentar a capacidade mental, certo?))
+     (((?* ?x) (Alteracoes de humor) (?* ?y))
+     (Descubra o faz voce se sentir melhor e crie sua propria rotina incluindo esta atividade. Por exemplo: musica, um passeio, uma conversa animada com amigos… Identifique as atividades que o acalmam e tente sempre ter um espaco na agenda para elas.))
      (((?* ?x) Pensamento acelerado(?* ?y))
-     (Que tal pensar nos seus problemas como se eles fossem de outra pessoa, assim fica mais fácil deixar de se incomodar com eles. Apenas respire e mantenha o foco no presente. ^^))
-     (((?* ?x) Agitação(?* ?y))
-     (Pratique exercícios, durma bastante e alimente-se de maneira correta, isso ajuda a diminuir os níveis de estresse, e a relaxar ok?))
+     (Que tal pensar nos seus problemas como se eles fossem de outra pessoa, assim fica mais facil deixar de se incomodar com eles. Apenas respire e mantenha o foco no presente. ^^))
+     (((?* ?x) Agitacao(?* ?y))
+     (Pratique exercicios, durma bastante e alimente-se de maneira correta, isso ajuda a diminuir os niveis de estresse, e a relaxar ok?))
+
+   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO TRANSTORNO BIPOLAR
 
 
-  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; CASO A PESSOA RESPONDA 'ESTÁ BEM'
+
+  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; CASO A PESSOA RESPONDA 'ESTA' BEM'
            
-     (((?* ?x)(está bem) (?* ?y))
-     (Ótimo! Sempre lembre que você é importante!))
+     (((?* ?x)(esta' bem) (?* ?y))
+     (Otimo! Sempre lembre que voce e' importante!))
      (((?* ?x)(ta bem) (?* ?y))
-     (Ótimo! Sempre lembre que você é importante!))
+     (Otimo! Sempre lembre que voce e' importante!))
      (((?* ?x)(esta bem) (?* ?y))
-     (Ótimo! Sempre lembre que você é importante!))
+     (Otimo! Sempre lembre que voce e' importante!))
      (((?* ?x)(esta) (?* ?y))
-     (Ótimo! Sempre lembre que você é importante!))
-     (((?* ?x)(está) (?* ?y))
-     (Ótimo! Sempre lembre que você é importante!))
+     (Otimo! Sempre lembre que voce e' importante!))
+     (((?* ?x)(esta') (?* ?y))
+     (Otimo! Sempre lembre que voce e' importante!))
 
-  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; CASO A PESSOA RESPONDA 'NAO ESTÁ'
+  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; CASO A PESSOA RESPONDA 'NAO ESTA''
 
-    (((?* ?x)(não esta bem) (?* ?y))
-    (Poxa! Você pode não acreditar agora mas você irá ficar bem! Sempre lembre que você é importante))
-    (((?* ?x)(não esta) (?* ?y))
-    (Poxa! Você pode não acreditar agora mas você irá ficar bem! Sempre lembre que você é importante))
-    (((?* ?x)(não está) (?* ?y))
-    (Poxa! Você pode não acreditar agora mas você irá ficar bem! Sempre lembre que você é importante))
     (((?* ?x)(nao esta bem) (?* ?y))
-    (Poxa! Você pode não acreditar agora mas você irá ficar bem! Sempre lembre que você é importante))
+    (Poxa! Voce pode nao acreditar agora mas voce ira' ficar bem! Sempre lembre que voce e' importante))
+    (((?* ?x)(nao esta) (?* ?y))
+    (Poxa! Voce pode nao acreditar agora mas voce ira' ficar bem! Sempre lembre que voce e' importante))
+    (((?* ?x)(nao esta') (?* ?y))
+    (Poxa! Voce pode nao acreditar agora mas voce ira' ficar bem! Sempre lembre que voce e' importante))
+    (((?* ?x)(nao esta bem) (?* ?y))
+    (Poxa! Voce pode nao acreditar agora mas voce ira' ficar bem! Sempre lembre que voce e' importante))
     (((?* ?x)(nao) (?* ?y))
-    (Poxa! Você pode não acreditar agora mas você irá ficar bem! Sempre lembre que você é importante))
+    (Poxa! Voce pode nao acreditar agora mas voce ira' ficar bem! Sempre lembre que voce e' importante))
     (((?* ?x)(nao) (?* ?y))
-    (Poxa! Você pode não acreditar agora mas você irá ficar bem! Sempre lembre que você é importante))
+    (Poxa! Voce pode nao acreditar agora mas voce ira' ficar bem! Sempre lembre que voce e' importante))
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO DEPRESSÃO
-   
    
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
    ;;;;;;;;;;; PALAVROES
