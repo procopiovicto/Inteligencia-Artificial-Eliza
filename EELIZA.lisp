@@ -108,9 +108,9 @@
 
 (defparameter *eliza-rules* 
  '((((?* ?x) ola (?* ?y)) ;;;;;;;;;;;;;;; SAUDAÇÕES
-    (Sobre o que você gostaria de falar? Ansiedade? Depressão? Síndrome de Pânico? Complexo de Inferioridade? Transtorno Bipolar? Sindrome de Burnout?))
+    (Sobre o que voce gostaria de falar? Ansiedade? Depressao? Sindrome de Panico? Complexo de Inferioridade? Transtorno Bipolar? Sindrome de Burnout?))
    (((?* ?x) oi (?* ?y))
-    (Sobre o que você gostaria de falar? Ansiedade? Depressão? Síndrome de Pânico? Complexo de Inferioridade? Transtorno Bipolar? Síndrome de Burnout?))
+    (Sobre o que voce gostaria de falar? Ansiedade? Depressao? Sindrome de Panico? Complexo de Inferioridade? Transtorno Bipolar? Sindrome de Burnout?))
    
    (((?* ?x) estou (?* ?y)) ;;;;;;;;;;;;;;; ESTADO
     (Como voce esta?))     
@@ -1102,11 +1102,5 @@
 	(list x)))
 
 (eliza)
-
-
-
-
-
-
 
 
