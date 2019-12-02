@@ -198,7 +198,7 @@
      (((?* ?x) Distracao (?* ?y))
      (Faca uma pausa e de uma volta... mas num lugar com natureza... Isso ajuda a reduzir a ansiedade e a aumentar a capacidade mental! certo?))
      (((?* ?x) (Alteracoes de humor) (?* ?y))
-     (Descubra o faz voce se sentir melhor e crie sua propria rotina incluindo esta atividade. Por exemplo: musica... um passeio... uma conversa animada com amigos… Identifique as atividades que o acalmam e tente sempre ter um espaco na agenda para elas.))
+     (Descubra o faz voce se sentir melhor e crie sua propria rotina incluindo esta atividade. Por exemplo musica... um passeio... uma conversa animada com amigos… Identifique as atividades que o acalmam e tente sempre ter um espaco na agenda para elas.))
      (((?* ?x) (Pensamento acelerado) (?* ?y))
      (Que tal pensar nos seus problemas como se eles fossem de outra pessoa! assim fica mais facil deixar de se incomodar com eles. Apenas respire e mantenha o foco no presente. ^^))
      (((?* ?x) Agitacao (?* ?y))
