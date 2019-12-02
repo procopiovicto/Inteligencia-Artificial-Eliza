@@ -201,7 +201,7 @@
     (((?* ?x) TRANSTORNO BIPOLAR(?* ?y)) 
      (Sobre qual sintoma gostaria de falar? Distracao? Alteracooes de humor? Pensamento acelerado? Agitacao?))
      (((?* ?x) Distracao (?* ?y))
-     (Faca uma pausa e de uma volta, mas num lugar com natureza... Isso ajuda a reduzir a ansiedade e a aumentar a capacidade mental! certo?))
+     (Faca uma pausa e de uma volta... mas num lugar com natureza... Isso ajuda a reduzir a ansiedade e a aumentar a capacidade mental! certo?))
      (((?* ?x) (Alteracoes de humor) (?* ?y))
      (Descubra o faz voce se sentir melhor e crie sua propria rotina incluindo esta atividade. Por exemplo: musica... um passeio... uma conversa animada com amigos… Identifique as atividades que o acalmam e tente sempre ter um espaco na agenda para elas.))
      (((?* ?x) Pensamento acelerado(?* ?y))
