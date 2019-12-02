@@ -131,7 +131,7 @@
    
   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO DEPRESSAO 
    
-   (((?* ?x) DEPRESSAO (? *?y)) 
+   (((?* ?x) depressao (?* ?y)) 
      (Sobre qual sintoma gostaria de falar? Tristeza constante? Cansaco e Insonia? Perda de interesse por atividades que antes apreciava? Insatisfacao com a vida? Perda de peso? Irritabilidade?))
    (((?* ?x) tristeza (?* ?y))
      (Saiba que nao e sua culpa e que eu apoio voce! faca algo que goste...leia um livro...va ao cinema...tente nao pensar nisso...esta bem?))
@@ -167,46 +167,53 @@
      ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; CASO A PESSOA RESPONDA 'ESTA BEM'
            
      (((?* ?x)(esta bem) (?* ?y))
-     (Otimo! Sempre lembre que voce e importante!))
+     (Otimo! Sempre lembre que voce e importante! Gostaria de falar sobre outro sintoma?))
      (((?* ?x)(ta bem) (?* ?y))
-     (Otimo! Sempre lembre que voce e importante!))
+     (Otimo! Sempre lembre que voce e importante! Gostaria de falar sobre outro sintoma?))
      (((?* ?x)(esta bem) (?* ?y))
-     (Otimo! Sempre lembre que voce e importante!))
-     (((?* ?x)(esta) (?* ?y))
-     (Otimo! Sempre lembre que voce e importante!))
-     (((?* ?x)(esta) (?* ?y))
-     (Otimo! Sempre lembre que voce e importante!))
-     (((?* ?x)(ok) (?* ?y))
-     (Otimo! Sempre lembre que voce e importante!))
+     (Otimo! Sempre lembre que voce e importante! Gostaria de falar sobre outro sintoma?))
+     (((?* ?x) esta (?* ?y))
+     (Otimo! Sempre lembre que voce e importante! Gostaria de falar sobre outro sintoma?))
+     (((?* ?x) esta (?* ?y))
+     (Otimo! Sempre lembre que voce e importante! Gostaria de falar sobre outro sintoma?))
+     (((?* ?x) ok (?* ?y))
+     (Otimo! Sempre lembre que voce e importante! Gostaria de falar sobre outro sintoma?))
 
   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; CASO A PESSOA RESPONDA 'NAO ESTA'
 
     (((?* ?x)(nao esta bem) (?* ?y))
-    (Poxa! Voce pode nao acreditar agora mas voce ira ficar bem! Sempre lembre que voce e importante))
+    (Poxa! Voce pode nao acreditar agora mas voce ira ficar bem! Sempre lembre que voce e importante Gostaria de falar sobre outro sintoma?))
     (((?* ?x)(nao esta) (?* ?y))
-    (Poxa! Voce pode nao acreditar agora mas voce ira ficar bem! Sempre lembre que voce e importante))
+    (Poxa! Voce pode nao acreditar agora mas voce ira ficar bem! Sempre lembre que voce e importante Gostaria de falar sobre outro sintoma?))
     (((?* ?x)(nao esta) (?* ?y))
-    (Poxa! Voce pode nao acreditar agora mas voce ira ficar bem! Sempre lembre que voce e importante))
+    (Poxa! Voce pode nao acreditar agora mas voce ira ficar bem! Sempre lembre que voce e importante Gostaria de falar sobre outro sintoma?))
     (((?* ?x)(nao esta bem) (?* ?y))
-    (Poxa! Voce pode nao acreditar agora mas voce ira ficar bem! Sempre lembre que voce e importante))
-    (((?* ?x)(nao) (?* ?y))
-    (Poxa! Voce pode nao acreditar agora mas voce ira ficar bem! Sempre lembre que voce e importante))
-    (((?* ?x)(nao) (?* ?y))
-    (Poxa! Voce pode nao acreditar agora mas voce ira ficar bem! Sempre lembre que voce e importante))
+    (Poxa! Voce pode nao acreditar agora mas voce ira ficar bem! Sempre lembre que voce e importante Gostaria de falar sobre outro sintoma?))
+    (((?* ?x) nao (?* ?y))
+    (Poxa! Voce pode nao acreditar agora mas voce ira ficar bem! Sempre lembre que voce e importante Gostaria de falar sobre outro sintoma?))
+    (((?* ?x) nao (?* ?y))
+    (Poxa! Voce pode nao acreditar agora mas voce ira ficar bem! Sempre lembre que voce e importante Gostaria de falar sobre outro sintoma?))
+
+    ;;;;;;;;;;;;;;;; CASO A PESSOA RESPONDA 'GOSTARIA OU NAO GOSTARIA'
+
+    (((?* ?x) gostaria (?* ?y))
+    (Sobre qual sintoma gostaria de falar? Tristeza constante? Cansaco e Insonia? Perda de interesse por atividades que antes apreciava? Insatisfacao com a vida? Perda de peso? Irritabilidade?))
+    (((?* ?x) (nao gostaria) (?* ?y))
+    (Ok! muito obrigada pela consulta!))
 
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO DEPRESSAO
 
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO TRANSTORNO BIPOLAR
    
-    (((?* ?x) TRANSTORNO BIPOLAR(?* ?y)) 
+    (((?* ?x) (transtorno bipolar) (?* ?y)) 
      (Sobre qual sintoma gostaria de falar? Distracao? Alteracooes de humor? Pensamento acelerado? Agitacao?))
      (((?* ?x) Distracao (?* ?y))
      (Faca uma pausa e de uma volta... mas num lugar com natureza... Isso ajuda a reduzir a ansiedade e a aumentar a capacidade mental! certo?))
      (((?* ?x) (Alteracoes de humor) (?* ?y))
      (Descubra o faz voce se sentir melhor e crie sua propria rotina incluindo esta atividade. Por exemplo: musica... um passeio... uma conversa animada com amigos… Identifique as atividades que o acalmam e tente sempre ter um espaco na agenda para elas.))
-     (((?* ?x) Pensamento acelerado(?* ?y))
+     (((?* ?x) (Pensamento acelerado) (?* ?y))
      (Que tal pensar nos seus problemas como se eles fossem de outra pessoa! assim fica mais facil deixar de se incomodar com eles. Apenas respire e mantenha o foco no presente. ^^))
-     (((?* ?x) Agitacao(?* ?y))
+     (((?* ?x) Agitacao (?* ?y))
      (Pratique exercicios... durma bastante e alimente-se de maneira correta! isso ajuda a diminuir os niveis de estresse e a relaxar ok?))
    
  
@@ -217,7 +224,7 @@
 
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO SINDROME DE PANICO
 
-   (((?* ?x) SINDROME DE PANICO (? *?y)) 
+   (((?* ?x) (sindrome de panico) (? *?y)) 
    (Sobre qual sintoma gostaria de falar? Dor no peito com sensacao de aperto? Sensacao de falta de ar? Sensacao de fraqueza ou desmaio? Sensacao de terror ou perigo iminente?))
    (((?* ?x) Dor no peito com sensacao de aperto (?* ?y))
    (Respirar lenta e profundamente ajuda a reduzir a frequencia cardiaca tudo bem?))
