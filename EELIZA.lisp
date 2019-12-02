@@ -161,23 +161,9 @@
      (Saiba que nao e sua culpa e que eu apoio voce! faca algo que goste...leia um livro...va ao cinema...tente nao pensar nisso...esta bem?))
      (((?* ?x) irritabilidade (?* ?y))
      (Saiba que nao e sua culpa e que eu apoio voce! faca algo que goste...leia um livro...va ao cinema...tente nao pensar nisso...esta bem?))
-
-    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO DEPRESSAO
-
-    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO TRANSTORNO BIPOLAR
-   
-    (((?* ?x) TRANSTORNO BIPOLAR(?* ?y)) 
-     (Sobre qual sintoma gostaria de falar? Distracao? Alteracooes de humor? Pensamento acelerado? Agitacao?))
-     (((?* ?x) Distracao (?* ?y))
-     (Faca uma pausa e de uma volta, mas num lugar com natureza... Isso ajuda a reduzir a ansiedade e a aumentar a capacidade mental, certo?))
-     (((?* ?x) (Alteracoes de humor) (?* ?y))
-     (Descubra o faz voce se sentir melhor e crie sua propria rotina incluindo esta atividade. Por exemplo: musica, um passeio, uma conversa animada com amigos… Identifique as atividades que o acalmam e tente sempre ter um espaco na agenda para elas.))
-     (((?* ?x) Pensamento acelerado(?* ?y))
-     (Que tal pensar nos seus problemas como se eles fossem de outra pessoa, assim fica mais facil deixar de se incomodar com eles. Apenas respire e mantenha o foco no presente. ^^))
-     (((?* ?x) Agitacao(?* ?y))
-     (Pratique exercicios, durma bastante e alimente-se de maneira correta, isso ajuda a diminuir os niveis de estresse, e a relaxar ok?))
    
    
+     
      ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; CASO A PESSOA RESPONDA 'ESTA BEM'
            
      (((?* ?x)(esta bem) (?* ?y))
@@ -207,6 +193,23 @@
     (Poxa! Voce pode nao acreditar agora mas voce ira ficar bem! Sempre lembre que voce e importante))
     (((?* ?x)(nao) (?* ?y))
     (Poxa! Voce pode nao acreditar agora mas voce ira ficar bem! Sempre lembre que voce e importante))
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO DEPRESSAO
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO TRANSTORNO BIPOLAR
+   
+    (((?* ?x) TRANSTORNO BIPOLAR(?* ?y)) 
+     (Sobre qual sintoma gostaria de falar? Distracao? Alteracooes de humor? Pensamento acelerado? Agitacao?))
+     (((?* ?x) Distracao (?* ?y))
+     (Faca uma pausa e de uma volta, mas num lugar com natureza... Isso ajuda a reduzir a ansiedade e a aumentar a capacidade mental, certo?))
+     (((?* ?x) (Alteracoes de humor) (?* ?y))
+     (Descubra o faz voce se sentir melhor e crie sua propria rotina incluindo esta atividade. Por exemplo: musica, um passeio, uma conversa animada com amigos… Identifique as atividades que o acalmam e tente sempre ter um espaco na agenda para elas.))
+     (((?* ?x) Pensamento acelerado(?* ?y))
+     (Que tal pensar nos seus problemas como se eles fossem de outra pessoa, assim fica mais facil deixar de se incomodar com eles. Apenas respire e mantenha o foco no presente. ^^))
+     (((?* ?x) Agitacao(?* ?y))
+     (Pratique exercicios, durma bastante e alimente-se de maneira correta, isso ajuda a diminuir os niveis de estresse, e a relaxar ok?))
+   
+ 
 
    
 
@@ -248,7 +251,7 @@
      (To azilada de fome tbm paga um rango p nos))
 
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-   ;;;;;;;;;;;;;;;;;;;;; SAUDE MENTAL
+   ;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO OUTROS PROBLEMAS
    (((?* ?x) (outros problemas) (?* ?y))
       (Por qual problema voce ta passando? Eh por causa do seu corpo? ou por causa do seu namoro? Por causa do emprego? ou por causa da familia?))
    
@@ -521,8 +524,10 @@
       (poxa cara. Infelizmente todo mundo passa por esse porblema. Tente trocar de empregou ou ser promovido))
 (((?* ?x) (preciso de dinheiro) (?* ?y))
       (poxa cara.Infelizmente todo mundo passa por esse porblema.))
+   
+   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO OUTROS PROBEMAS
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; TRATAMENTO DE EXCEÇÃO
 (((?* ?x))
      (Muito interessante continue) (nao tenho certeza se entendi totalmente)
      (O que isso sugere para você?) (por favor continue) (vai em frente)
