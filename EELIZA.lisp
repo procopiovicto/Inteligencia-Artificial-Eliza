@@ -212,7 +212,7 @@
 
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO SINDROME DE PANICO
 
-   (((?* ?x) (sindrome de panico) (? *?y)) 
+   (((?* ?x) (sindrome de panico) (?* ?y)) 
    (Sobre qual sintoma gostaria de falar? Dor no peito com sensacao de aperto? Sensacao de falta de ar? Sensacao de fraqueza ou desmaio? Sensacao de terror ou perigo iminente?))
    (((?* ?x) Dor no peito com sensacao de aperto (?* ?y))
    (Respirar lenta e profundamente ajuda a reduzir a frequencia cardiaca tudo bem?))
