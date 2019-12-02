@@ -214,13 +214,13 @@
 
    (((?* ?x) (sindrome de panico) (?* ?y)) 
    (Sobre qual sintoma gostaria de falar? Dor no peito com sensacao de aperto? Sensacao de falta de ar? Sensacao de fraqueza ou desmaio? Sensacao de terror ou perigo iminente?))
-   (((?* ?x) Dor no peito com sensacao de aperto (?* ?y))
+   (((?* ?x) (Dor no peito com sensacao de aperto) (?* ?y))
    (Respirar lenta e profundamente ajuda a reduzir a frequencia cardiaca tudo bem?))
    (((?* ?x) (Sensacao de falta de ar) (?* ?y))
-   (Sente-e com a coluna ereta ou fique de pe com o corpo reto... feche os olhos e coloque as maos sobre a barriga... inspire contando ate 5 lentamente... estufando a barriga para enche-la de ar... expire tambem contando ate 5 lentamente... liberando o ar da barriga e contraindo os musculos desta região.))
-   (((?* ?x) Sensacao de fraqueza ou desmaio (?* ?y))
+   (Sente-e com a coluna ereta ou fique de pe com o corpo reto... feche os olhos e coloque as maos sobre a barriga... inspire contando ate 5 lentamente... estufando a barriga para enche-la de ar... expire tambem contando ate 5 lentamente... liberando o ar da barriga e contraindo os musculos desta regiao ok?))
+   (((?* ?x) (Sensacao de fraqueza ou desmaio) (?* ?y))
    (Voce ja pensou em fazer yoga eh uma pratica que une alongamentos... controle da respiração e fortalecimento da musculatura. Ok?))
-   (((?* ?x) Sensacao de terror ou perigo iminente (?* ?y))
+   (((?* ?x) (Sensacao de terror ou perigo iminente) (?* ?y))
    (Imagine um local real que transmita paz e segurança ou crie um ambiente imaginario... pensando em todos os detalhes que ajudam a trazer tranquilidade tudo bem?))
 
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO SINDROME DE PANICO
