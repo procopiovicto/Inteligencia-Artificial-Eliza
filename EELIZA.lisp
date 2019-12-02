@@ -198,7 +198,7 @@
      (((?* ?x) Distracao (?* ?y))
      (Faca uma pausa e de uma volta... mas num lugar com natureza... Isso ajuda a reduzir a ansiedade e a aumentar a capacidade mental! certo?))
      (((?* ?x) (Alteracoes de humor) (?* ?y))
-     (Descubra o faz voce se sentir melhor e crie sua propria rotina incluindo esta atividade. Por exemplo musica... um passeio... uma conversa animada com amigos… Identifique as atividades que o acalmam e tente sempre ter um espaco na agenda para elas.))
+     (Descubra o faz voce se sentir melhor e crie sua propria rotina incluindo esta atividade. Por exemplo: musica... um passeio... uma conversa animada com amigos… Identifique as atividades que o acalmam e tente sempre ter um espaco na agenda para elas.))
      (((?* ?x) (Pensamento acelerado) (?* ?y))
      (Que tal pensar nos seus problemas como se eles fossem de outra pessoa! assim fica mais facil deixar de se incomodar com eles. Apenas respire e mantenha o foco no presente. ^^))
      (((?* ?x) Agitacao (?* ?y))
@@ -208,8 +208,21 @@
 
    
 
-   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO TRANSTORNO BIPOLAR
-
+   ;
+   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO TRANSTORNO BIPOLAR
+ ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO COMPLEXO DE INFERIORIDADE
+   
+    (((?* ?x) (complexo de inferioridade) (?* ?y)) 
+     (Sobre qual sintoma gostaria de falar? isolamento? Hábito de se comparar com os outros? Sentimentos de incapacidade e de inferioridade? Preocupação excessiva com a opinião das pessoas?))
+     (((?* ?x) isolamento (?* ?y))
+     (Faca uma pausa e de uma volta... mas num lugar com natureza... Isso ajuda a refletir sobre a sua própria identidade! certo?))
+     (((?* ?x) (Hábito de se comparar com os outros) (?* ?y))
+     (Descubra suas qualidades Ninguém é perfeito. Você pode até não ser tão bom em algumas coisas, especialmente quando se compara com algum especialista ou modelo, mas certamente possui características positivas que a outra pessoa não tem.  Toda vez que você se compara com alguém, você anula suas qualidades e particularidades.))
+     (((?* ?x) (Sentimentos de incapacidade e de inferioridade) (?* ?y))
+     (Escreva sobre seus sucessos ao longo da vida, as realizações das quais se orgulha e memórias queridas. Quando se sentir incapaz de fazer alguma coisa, veja sua lista e lembre-se de como você é uma pessoa capaz e fantástica.^^))
+     (((?* ?x) Preocupação excessiva com a opinião das pessoas (?* ?y))
+     (Tire o foco das pessoas e comece a dar impotância a pessoa maravilhosa que você é.Pratique exercicios... durma bastante e alimente-se de maneira correta!Se desenvolva como pessoa e se torne alguém ainda melhor,ok?))
+   
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO SINDROME DE PANICO
 
    (((?* ?x) (sindrome de panico) (?* ?y)) 
