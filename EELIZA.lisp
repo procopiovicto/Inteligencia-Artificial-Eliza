@@ -131,7 +131,7 @@
    
   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO DEPRESSAO 
    
-   (((?* ?x) DEPRESSAO (? ?y)) 
+   (((?* ?x) DEPRESSAO (? *?y)) 
      (Sobre qual sintoma gostaria de falar? Tristeza constante? Cansaco e Insonia? Perda de interesse por atividades que antes apreciava? Insatisfacao com a vida? Perda de peso? Irritabilidade?))
    (((?* ?x) tristeza (?* ?y))
      (Saiba que nao e sua culpa e que eu apoio voce! faca algo que goste...leia um livro...va ao cinema...tente nao pensar nisso...esta bem?))
@@ -201,13 +201,13 @@
     (((?* ?x) TRANSTORNO BIPOLAR(?* ?y)) 
      (Sobre qual sintoma gostaria de falar? Distracao? Alteracooes de humor? Pensamento acelerado? Agitacao?))
      (((?* ?x) Distracao (?* ?y))
-     (Faca uma pausa e de uma volta, mas num lugar com natureza... Isso ajuda a reduzir a ansiedade e a aumentar a capacidade mental, certo?))
+     (Faca uma pausa e de uma volta, mas num lugar com natureza... Isso ajuda a reduzir a ansiedade e a aumentar a capacidade mental! certo?))
      (((?* ?x) (Alteracoes de humor) (?* ?y))
-     (Descubra o faz voce se sentir melhor e crie sua propria rotina incluindo esta atividade. Por exemplo: musica, um passeio, uma conversa animada com amigos… Identifique as atividades que o acalmam e tente sempre ter um espaco na agenda para elas.))
+     (Descubra o faz voce se sentir melhor e crie sua propria rotina incluindo esta atividade. Por exemplo: musica... um passeio... uma conversa animada com amigos… Identifique as atividades que o acalmam e tente sempre ter um espaco na agenda para elas.))
      (((?* ?x) Pensamento acelerado(?* ?y))
-     (Que tal pensar nos seus problemas como se eles fossem de outra pessoa, assim fica mais facil deixar de se incomodar com eles. Apenas respire e mantenha o foco no presente. ^^))
+     (Que tal pensar nos seus problemas como se eles fossem de outra pessoa! assim fica mais facil deixar de se incomodar com eles. Apenas respire e mantenha o foco no presente. ^^))
      (((?* ?x) Agitacao(?* ?y))
-     (Pratique exercicios, durma bastante e alimente-se de maneira correta, isso ajuda a diminuir os niveis de estresse, e a relaxar ok?))
+     (Pratique exercicios... durma bastante e alimente-se de maneira correta! isso ajuda a diminuir os niveis de estresse e a relaxar ok?))
    
  
 
@@ -222,11 +222,11 @@
    (((?* ?x) Dor no peito com sensacao de aperto (?* ?y))
    (Respirar lenta e profundamente ajuda a reduzir a frequencia cardiaca tudo bem?))
    (((?* ?x) (Sensacao de falta de ar) (?* ?y))
-   (Sente-e com a coluna ereta ou fique de pe com o corpo reto, feche os olhos e coloque as maos sobre a barriga, inspire contando ate 5 lentamente, estufando a barriga para enche-la de ar, expire tambem contando ate 5 lentamente, liberando o ar da barriga e contraindo os musculos desta região.))
+   (Sente-e com a coluna ereta ou fique de pe com o corpo reto... feche os olhos e coloque as maos sobre a barriga... inspire contando ate 5 lentamente... estufando a barriga para enche-la de ar... expire tambem contando ate 5 lentamente... liberando o ar da barriga e contraindo os musculos desta região.))
    (((?* ?x) Sensacao de fraqueza ou desmaio (?* ?y))
-   (Voce ja pensou em fazer yoga eh uma pratica que une alongamentos, controle da respiração e fortalecimento da musculatura. Ok?))
+   (Voce ja pensou em fazer yoga eh uma pratica que une alongamentos... controle da respiração e fortalecimento da musculatura. Ok?))
    (((?* ?x) Sensacao de terror ou perigo iminente (?* ?y))
-   (Imagine um local real que transmita paz e segurança ou crie um ambiente imaginario, pensando em todos os detalhes que ajudam a trazer tranquilidade tudo bem?))
+   (Imagine um local real que transmita paz e segurança ou crie um ambiente imaginario... pensando em todos os detalhes que ajudam a trazer tranquilidade tudo bem?))
 
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO SINDROME DE PANICO
 
